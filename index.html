@@ -1,0 +1,1004 @@
+
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japon : Épopée entre Traditions et Modernité </title>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        template: {
+                            sable: '#F3E5AB',
+                            ocre: '#C66B3D',
+                            roche: '#2D2A26',
+                            ciel: '#4A6C6F',
+                            bg: '#FAFAF9'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { overflow-x: hidden; }
+        
+        /* Ligne verticale de la timeline */
+        .timeline-line {
+            position: absolute;
+            left: 24px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background-color: #E5E7EB;
+            z-index: 0;
+        }
+        @media (min-width: 768px) {
+            .timeline-line { left: 50%; margin-left: -1px; }
+        }
+
+        /* Style des cartes Info */
+        .tip-card {
+            border-left: 4px solid #C66B3D;
+            background-color: #FFF7ED;
+        }
+
+        /* Masquer la scrollbar de la nav mobile tout en gardant le scroll */
+        .hide-scroll::-webkit-scrollbar { display: none; }
+        .hide-scroll { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+</head>
+<body class="bg-template-bg text-template-roche antialiased">
+
+    <nav id="nav-desktop" class="hidden md:flex fixed top-0 w-full z-50 bg-white/90 backdrop-blur border-b border-gray-200 py-4 px-8 justify-between items-center shadow-sm transition-transform duration-300 -translate-y-full">
+        <a href="#top" class="text-xl font-serif font-bold tracking-widest text-template-roche">Japon : Épopée entre Traditions et Modernité</a>
+        <div class="space-x-6 text-sm font-bold text-gray-600">
+            <a href="#jour-1" class="nav-item-desktop hover:text-template-ocre transition">Le Parcours</a>
+            <a href="#pratique" class="nav-item-desktop hover:text-template-ocre transition">Infos Pratiques</a>
+        </div>
+    </nav>
+
+    <nav id="nav-mobile" class="md:hidden fixed top-0 w-full z-50 bg-white/95 backdrop-blur border-b border-gray-200 py-3 pl-4 overflow-x-auto hide-scroll whitespace-nowrap shadow-md transition-transform duration-300 -translate-y-full">
+        <div class="flex space-x-2 pr-4" id="mobile-menu-container">
+            <a href="#top" class="inline-block px-3 py-1 bg-template-roche text-white rounded-full text-xs font-bold shadow-sm">Top</a>
+            
+                <a href="#jour-1" class="mobile-link inline-block px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs font-bold hover:bg-template-sable transition-all duration-300">J1 Arrivée à Tokyo et Premiers Pas à Shinjuku</a>
+            
+                <a href="#jour-2" class="mobile-link inline-block px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs font-bold hover:bg-template-sable transition-all duration-300">J2 Tradition et Modernité à Tokyo</a>
+            
+                <a href="#jour-3" class="mobile-link inline-block px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs font-bold hover:bg-template-sable transition-all duration-300">J3 Mode, Culture et Carrefours Iconiques</a>
+            
+                <a href="#jour-4" class="mobile-link inline-block px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs font-bold hover:bg-template-sable transition-all duration-300">J4 Journée d'Évasion à Nikko</a>
+            
+                <a href="#jour-5" class="mobile-link inline-block px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs font-bold hover:bg-template-sable transition-all duration-300">J5 Saveurs et Panoramas de Tokyo</a>
+            
+                <a href="#jour-6" class="mobile-link inline-block px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs font-bold hover:bg-template-sable transition-all duration-300">J6 Voyage vers Hakone et Détente Thermale</a>
+            
+                <a href="#jour-7" class="mobile-link inline-block px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs font-bold hover:bg-template-sable transition-all duration-300">J7 Paysages Volcaniques et Art à Hakone</a>
+            
+                <a href="#jour-8" class="mobile-link inline-block px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs font-bold hover:bg-template-sable transition-all duration-300">J8 Voyage vers Kyoto, l'Ancienne Capitale</a>
+            
+                <a href="#jour-9" class="mobile-link inline-block px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs font-bold hover:bg-template-sable transition-all duration-300">J9 Temples d'Or et Jardins Zen de Kyoto</a>
+            
+                <a href="#jour-10" class="mobile-link inline-block px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs font-bold hover:bg-template-sable transition-all duration-300">J10 Mille Portes Torii et Cerfs de Nara</a>
+            
+                <a href="#jour-11" class="mobile-link inline-block px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs font-bold hover:bg-template-sable transition-all duration-300">J11 Culture, Artisanat et Sérénité à Kyoto</a>
+            
+                <a href="#jour-12" class="mobile-link inline-block px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs font-bold hover:bg-template-sable transition-all duration-300">J12 Châteaux, Jardins et Spectacles Traditionnels</a>
+            
+                <a href="#jour-13" class="mobile-link inline-block px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs font-bold hover:bg-template-sable transition-all duration-300">J13 Détente et Exploration Libre à Kyoto</a>
+            
+                <a href="#jour-14" class="mobile-link inline-block px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs font-bold hover:bg-template-sable transition-all duration-300">J14 Voyage vers Osaka, la Ville Gourmande</a>
+            
+                <a href="#jour-15" class="mobile-link inline-block px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs font-bold hover:bg-template-sable transition-all duration-300">J15 Histoire, Rétro-Futur et Vues Panoramiques</a>
+            
+                <a href="#jour-16" class="mobile-link inline-block px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs font-bold hover:bg-template-sable transition-all duration-300">J16 Divertissement ou Immersion Locale</a>
+            
+                <a href="#jour-17" class="mobile-link inline-block px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs font-bold hover:bg-template-sable transition-all duration-300">J17 Marché, Shopping et Détente à Osaka</a>
+            
+                <a href="#jour-18" class="mobile-link inline-block px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs font-bold hover:bg-template-sable transition-all duration-300">J18 Retour à Tokyo et Élégance de Ginza</a>
+            
+                <a href="#jour-19" class="mobile-link inline-block px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs font-bold hover:bg-template-sable transition-all duration-300">J19 Derniers Souvenirs et Adieux à Tokyo</a>
+            
+                <a href="#jour-20" class="mobile-link inline-block px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs font-bold hover:bg-template-sable transition-all duration-300">J20 Départ de Tokyo</a>
+            
+            <a href="#pratique" class="mobile-link inline-block px-3 py-1 border border-gray-300 text-gray-500 rounded-full text-xs font-bold">Infos</a>
+        </div>
+    </nav>
+
+    <header id="top" class="relative h-[85vh] flex items-center justify-center overflow-hidden pt-12 md:pt-0">
+        
+        <div class="absolute inset-0 bg-black/50 z-10"></div>
+
+        <video autoplay muted loop playsinline 
+               poster="https://images.unsplash.com/photo-1579606946838-6db34433f3c0?q=80&w=2070"
+               class="absolute inset-0 w-full h-full object-cover">
+            <source src="https://videos.pexels.com/video-files/4456988/4456988-hd_1920_1080_25fps.mp4" type="video/mp4">
+            Votre navigateur ne supporte pas la vidéo.
+        </video>
+        
+        <div class="relative z-20 text-center text-white px-4 max-w-3xl animate-fade-in-up">
+            <p class="font-sans text-template-sable tracking-[0.3em] mb-4 uppercase text-sm font-semibold">Feuille de Route</p>
+            <h1 class="font-Playfair italic text-5xl md:text-8xl mb-6 leading-tight drop-shadow-lg">Nikko hakone  kyoto osaka</h1>
+            <p class="font-sans text-lg md:text-xl text-gray-100 mb-10 font-light max-w-2xl mx-auto leading-relaxed">Japon : Épopée entre Traditions et Modernité</p>
+            
+            <div class="flex flex-wrap justify-center gap-4 text-sm font-bold mb-10">
+                <span class="bg-white/10 backdrop-blur-md px-5 py-2 rounded-full border border-white/20 shadow-sm">🗓️ 20 jours</span>
+                <span class="bg-white/10 backdrop-blur-md px-5 py-2 rounded-full border border-white/20 shadow-sm">💰 5800€ / pers</span>
+                <span class="bg-white/10 backdrop-blur-md px-5 py-2 rounded-full border border-white/20 shadow-sm">🛬 12h30 depuis Paris</span>
+            </div>
+
+        </div>
+    </header>
+
+    <section id="itineraire" class="max-w-6xl mx-auto px-4 py-20 relative">
+        
+        <div class="text-center mb-16">
+            <span class="text-template-ocre font-bold tracking-widest text-xs uppercase">Le Roadtrip</span>
+            <h2 class="font-serif text-4xl mt-2 text-template-roche">Votre Programme</h2>
+        </div>
+
+        <div class="relative">
+            <div class="timeline-line"></div>
+            
+            
+                <div id="jour-1" class="section-etape relative z-10 mb-20 md:flex md:flex-row-reverse md:justify-between items-start group scroll-mt-32">
+                    
+                    <div class="absolute left-6 md:left-1/2 transform -translate-x-1/2 w-8 h-8 bg-template-roche rounded-full border-4 border-white shadow-lg flex items-center justify-center z-20"></div>
+                    
+                    <div class="md:w-[45%] pl-14 md:text-left md:pl-12">
+                        <span class="font-serif text-3xl block text-template-roche mb-2">Jour 1</span>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Arrivée à Tokyo et Premiers Pas à Shinjuku</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed italic mb-4">Après un long vol, l'arrivée à Tokyo marque le début de l'aventure. Le quartier de Shinjuku offre une première immersion douce, entre son jardin paisible et l'effervescence de ses rues illuminées, parfait pour s'acclimater au décalage horaire.</p>
+                        <ul class="text-sm text-gray-700 space-y-2 inline-block text-left">
+                            
+                                <li>🛬 <strong>Arrivée à Tokyo et Transfert</strong>: Atterrissez à Narita (NRT) ou Haneda (HND) et prenez le train pour rejoindre votre hôtel à Tokyo. Ce trajet est l'occasion d'observer les premiers paysages japonais.</li>
+                            
+                                <li>🛏️ <strong>Installation à l'hôtel et Détente</strong>: Prenez le temps de vous installer et de vous rafraîchir. Une petite pause est essentielle avant de commencer l'exploration pour recharger les batteries.</li>
+                            
+                                <li>🚶‍♂️ <strong>Balade légère dans Shinjuku Gyoen</strong>: Ce jardin national offre une oasis de calme au cœur de la ville. C'est l'endroit idéal pour une promenade relaxante et une première immersion dans la beauté des jardins japonais.</li>
+                            
+                        </ul>
+                    </div>
+                    
+                    <div class="pl-14 md:w-[45%] mt-6 md:mt-0 md:pr-12">
+                        <div class="rounded-xl overflow-hidden shadow-lg mb-4">
+                            <img src="https://raw.githubusercontent.com/shepper1/Nikko-hakone--kyoto-osaka/main/jour1.jpg" class="w-full h-64 object-cover" alt="Jour 1">
+                        </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">ℹ️ JR Pass et Cartes de Transport</p>
+                                <p class="text-gray-700">Activez votre Japan Rail Pass dès l'arrivée si vous l'avez acheté. Pensez aussi à acheter une carte Suica ou Pasmo pour les transports locaux non couverts par le JR Pass, très pratique pour les métros et bus.</p>
+                            </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">🍜 Premier Repas</p>
+                                <p class="text-gray-700">Pour votre premier dîner, explorez les restaurants autour de votre hôtel à Shinjuku. Les izakayas (pubs japonais) sont parfaits pour goûter à une variété de plats locaux dans une ambiance conviviale.</p>
+                            </div>
+                        
+                    </div>
+                </div>
+                
+                <div id="jour-2" class="section-etape relative z-10 mb-20 md:flex  md:justify-between items-start group scroll-mt-32">
+                    
+                    <div class="absolute left-6 md:left-1/2 transform -translate-x-1/2 w-8 h-8 bg-template-ocre rounded-full border-4 border-white shadow-lg flex items-center justify-center z-20"></div>
+                    
+                    <div class="md:w-[45%] pl-14 md:text-right md:pr-12">
+                        <span class="font-serif text-3xl block text-template-roche mb-2">Jour 2</span>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Tradition et Modernité à Tokyo</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed italic mb-4">Plongez au cœur de l'histoire de Tokyo avec le temple Senso-ji, puis explorez les trésors culturels d'Ueno. Terminez la journée dans le quartier futuriste d'Akihabara, un contraste saisissant qui illustre la dualité de la capitale japonaise.</p>
+                        <ul class="text-sm text-gray-700 space-y-2 inline-block text-left">
+                            
+                                <li>⛩️ <strong>Visite du Temple Senso-ji à Asakusa</strong>: Le plus ancien temple de Tokyo, avec sa porte Kaminarimon emblématique et la rue commerçante Nakamise-dori. Imprégnez-vous de l'atmosphère spirituelle et achetez des souvenirs traditionnels.</li>
+                            
+                                <li>🌳 <strong>Exploration du Parc d'Ueno et ses Musées</strong>: Ce vaste parc abrite plusieurs musées de renommée mondiale (Musée National de Tokyo, Musée d'Art Occidental) et un zoo. Choisissez-en un ou deux selon vos intérêts pour une immersion culturelle.</li>
+                            
+                                <li>🎮 <strong>Découverte d'Akihabara, le quartier électronique</strong>: Plongez dans le monde des mangas, des jeux vidéo et de l'électronique. Les néons et les magasins sur plusieurs étages offrent une expérience unique et vibrante.</li>
+                            
+                        </ul>
+                    </div>
+                    
+                    <div class="pl-14 md:w-[45%] mt-6 md:mt-0 md:pl-12">
+                        <div class="rounded-xl overflow-hidden shadow-lg mb-4">
+                            <img src="https://raw.githubusercontent.com/shepper1/Nikko-hakone--kyoto-osaka/main/jour2.jpg" class="w-full h-64 object-cover" alt="Jour 2">
+                        </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">🚶‍♀️ Chaussures Confortables</p>
+                                <p class="text-gray-700">Prévoyez des chaussures confortables, car les journées à Tokyo impliquent beaucoup de marche. Vous serez reconnaissant d'avoir de bonnes chaussures pour explorer la ville.</p>
+                            </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">📸 Meilleur Moment pour Senso-ji</p>
+                                <p class="text-gray-700">Visitez Senso-ji tôt le matin pour éviter la foule et profiter d'une atmosphère plus sereine. La lumière matinale est également idéale pour la photographie.</p>
+                            </div>
+                        
+                    </div>
+                </div>
+                
+                <div id="jour-3" class="section-etape relative z-10 mb-20 md:flex md:flex-row-reverse md:justify-between items-start group scroll-mt-32">
+                    
+                    <div class="absolute left-6 md:left-1/2 transform -translate-x-1/2 w-8 h-8 bg-template-ciel rounded-full border-4 border-white shadow-lg flex items-center justify-center z-20"></div>
+                    
+                    <div class="md:w-[45%] pl-14 md:text-left md:pl-12">
+                        <span class="font-serif text-3xl block text-template-roche mb-2">Jour 3</span>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Mode, Culture et Carrefours Iconiques</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed italic mb-4">Cette journée vous emmène du sanctuaire paisible Meiji Jingu à l'excentricité de Harajuku, avant de vous immerger dans l'énergie débordante du carrefour de Shibuya. Une journée qui capture l'essence de la jeunesse et de la modernité tokyoïte.</p>
+                        <ul class="text-sm text-gray-700 space-y-2 inline-block text-left">
+                            
+                                <li>🌳 <strong>Visite du Sanctuaire Meiji Jingu</strong>: Un havre de paix dédié à l'Empereur Meiji et son impératrice, niché dans une forêt luxuriante. C'est un lieu de recueillement et de sérénité, loin de l'agitation urbaine.</li>
+                            
+                                <li>👗 <strong>Exploration de Harajuku et Takeshita Street</strong>: Découvrez le quartier de la mode excentrique et des tendances japonaises. Takeshita Street est un festival de couleurs et de créativité, parfait pour observer la jeunesse tokyoïte.</li>
+                            
+                                <li>🚦 <strong>Immersion au Carrefour de Shibuya</strong>: Traversez le célèbre carrefour de Shibuya, l'un des plus fréquentés au monde. Montez à l'étage du Starbucks ou du Mag's Park pour une vue imprenable sur le ballet incessant des piétons.</li>
+                            
+                        </ul>
+                    </div>
+                    
+                    <div class="pl-14 md:w-[45%] mt-6 md:mt-0 md:pr-12">
+                        <div class="rounded-xl overflow-hidden shadow-lg mb-4">
+                            <img src="https://raw.githubusercontent.com/shepper1/Nikko-hakone--kyoto-osaka/main/jour3.jpg" class="w-full h-64 object-cover" alt="Jour 3">
+                        </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">🚇 Transports en Commun</p>
+                                <p class="text-gray-700">Le réseau de métro et de trains de Tokyo est extrêmement efficace. Utilisez des applications comme Google Maps pour planifier vos trajets et optimiser votre temps de déplacement.</p>
+                            </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">📸 Photo du Carrefour</p>
+                                <p class="text-gray-700">Pour une photo emblématique du carrefour de Shibuya, positionnez-vous au deuxième étage du Starbucks du bâtiment Tsutaya. La vue y est imprenable et permet de capturer l'ampleur du mouvement.</p>
+                            </div>
+                        
+                    </div>
+                </div>
+                
+                <div id="jour-4" class="section-etape relative z-10 mb-20 md:flex  md:justify-between items-start group scroll-mt-32">
+                    
+                    <div class="absolute left-6 md:left-1/2 transform -translate-x-1/2 w-8 h-8 bg-template-roche rounded-full border-4 border-white shadow-lg flex items-center justify-center z-20"></div>
+                    
+                    <div class="md:w-[45%] pl-14 md:text-right md:pr-12">
+                        <span class="font-serif text-3xl block text-template-roche mb-2">Jour 4</span>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Journée d'Évasion à Nikko</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed italic mb-4">Échappez à l'agitation de Tokyo pour une journée à Nikko, un site classé au patrimoine mondial de l'UNESCO. Ses sanctuaires et temples magnifiquement décorés, nichés dans une nature luxuriante, offrent une plongée profonde dans l'histoire et l'art japonais.</p>
+                        <ul class="text-sm text-gray-700 space-y-2 inline-block text-left">
+                            
+                                <li>🚆 <strong>Voyage en train vers Nikko</strong>: Prenez le Shinkansen jusqu'à Utsunomiya, puis la ligne JR Nikko. Le trajet offre de belles vues sur la campagne japonaise et est couvert par le JR Pass.</li>
+                            
+                                <li>⛩️ <strong>Visite du Sanctuaire Toshogu</strong>: Le joyau de Nikko, ce sanctuaire est un chef-d'œuvre d'architecture et de sculpture. Admirez ses détails complexes, ses couleurs vives et les célèbres singes de la sagesse.</li>
+                            
+                                <li>🌳 <strong>Exploration du Futarasan Jinja et Taiyuinbyo</strong>: Ces deux autres sites majeurs de Nikko offrent une atmosphère plus sereine. Le Futarasan Jinja est dédié aux divinités des montagnes, tandis que le Taiyuinbyo est le mausolée du petit-fils de Ieyasu Tokugawa.</li>
+                            
+                        </ul>
+                    </div>
+                    
+                    <div class="pl-14 md:w-[45%] mt-6 md:mt-0 md:pl-12">
+                        <div class="rounded-xl overflow-hidden shadow-lg mb-4">
+                            <img src="https://raw.githubusercontent.com/shepper1/Nikko-hakone--kyoto-osaka/main/jour4.jpg" class="w-full h-64 object-cover" alt="Jour 4">
+                        </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">👟 Prévoir de la Marche</p>
+                                <p class="text-gray-700">Les sites de Nikko sont étendus et impliquent de nombreuses marches et montées. Portez des chaussures confortables et préparez-vous à une journée active.</p>
+                            </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">🚌 Bus Local à Nikko</p>
+                                <p class="text-gray-700">À Nikko, un bus local relie la gare aux principaux sites. Un pass journalier peut être avantageux si vous prévoyez de visiter plusieurs endroits éloignés.</p>
+                            </div>
+                        
+                    </div>
+                </div>
+                
+                <div id="jour-5" class="section-etape relative z-10 mb-20 md:flex md:flex-row-reverse md:justify-between items-start group scroll-mt-32">
+                    
+                    <div class="absolute left-6 md:left-1/2 transform -translate-x-1/2 w-8 h-8 bg-template-ocre rounded-full border-4 border-white shadow-lg flex items-center justify-center z-20"></div>
+                    
+                    <div class="md:w-[45%] pl-14 md:text-left md:pl-12">
+                        <span class="font-serif text-3xl block text-template-roche mb-2">Jour 5</span>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Saveurs et Panoramas de Tokyo</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed italic mb-4">Débutez la journée par l'effervescence du marché extérieur de Tsukiji, puis explorez les jardins impériaux. Terminez en beauté avec une vue imprenable sur la ville depuis la Tokyo Skytree, offrant une perspective unique sur l'immensité de la capitale.</p>
+                        <ul class="text-sm text-gray-700 space-y-2 inline-block text-left">
+                            
+                                <li>🐟 <strong>Découverte du Marché Extérieur de Tsukiji</strong>: Flânez dans les allées animées de ce marché historique, goûtez aux fruits de mer frais et aux spécialités locales. C'est une expérience culinaire et culturelle incontournable.</li>
+                            
+                                <li>🌳 <strong>Promenade dans les Jardins Est du Palais Impérial</strong>: Ces jardins sont les seuls ouverts au public de l'ancien château d'Edo. Ils offrent une échappée verte et une plongée dans l'histoire impériale du Japon.</li>
+                            
+                                <li>🗼 <strong>Vue panoramique depuis la Tokyo Skytree</strong>: Montez au sommet de cette tour emblématique pour une vue à 360 degrés sur Tokyo. Au coucher du soleil, le spectacle des lumières de la ville est absolument magique.</li>
+                            
+                        </ul>
+                    </div>
+                    
+                    <div class="pl-14 md:w-[45%] mt-6 md:mt-0 md:pr-12">
+                        <div class="rounded-xl overflow-hidden shadow-lg mb-4">
+                            <img src="https://raw.githubusercontent.com/shepper1/Nikko-hakone--kyoto-osaka/main/jour5.jpg" class="w-full h-64 object-cover" alt="Jour 5">
+                        </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">⏰ Heure de Visite du Marché</p>
+                                <p class="text-gray-700">Arrivez tôt au marché de Tsukiji (vers 8h-9h) pour profiter de l'ambiance la plus authentique et des produits les plus frais. Certains stands ferment en début d'après-midi.</p>
+                            </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">🎟️ Billets Skytree</p>
+                                <p class="text-gray-700">Il est recommandé de réserver vos billets pour la Tokyo Skytree à l'avance, surtout si vous souhaitez y aller au coucher du soleil, pour éviter les longues files d'attente.</p>
+                            </div>
+                        
+                    </div>
+                </div>
+                
+                <div id="jour-6" class="section-etape relative z-10 mb-20 md:flex  md:justify-between items-start group scroll-mt-32">
+                    
+                    <div class="absolute left-6 md:left-1/2 transform -translate-x-1/2 w-8 h-8 bg-template-ciel rounded-full border-4 border-white shadow-lg flex items-center justify-center z-20"></div>
+                    
+                    <div class="md:w-[45%] pl-14 md:text-right md:pr-12">
+                        <span class="font-serif text-3xl block text-template-roche mb-2">Jour 6</span>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Voyage vers Hakone et Détente Thermale</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed italic mb-4">Quittez l'effervescence de Tokyo pour la sérénité des montagnes de Hakone. Ce voyage vous mènera à travers des paysages pittoresques, avec en toile de fond le majestueux Mont Fuji. Une journée dédiée à la nature, à l'art en plein air et à la relaxation.</p>
+                        <ul class="text-sm text-gray-700 space-y-2 inline-block text-left">
+                            
+                                <li>🚆 <strong>Voyage en train vers Hakone</strong>: Prenez le Shinkansen jusqu'à Odawara, puis la ligne Hakone Tozan. Le trajet est une belle introduction aux paysages montagneux de la région.</li>
+                            
+                                <li>🎨 <strong>Visite du Musée en Plein Air de Hakone</strong>: Ce musée unique intègre l'art moderne et contemporain dans un cadre naturel magnifique. C'est une expérience artistique immersive au cœur des montagnes.</li>
+                            
+                                <li>🚢 <strong>Croisière sur le Lac Ashi</strong>: Embarquez sur un bateau pirate pour une croisière relaxante sur le lac Ashi. Par temps clair, vous pourrez admirer des vues spectaculaires sur le Mont Fuji et le torii flottant du sanctuaire Hakone Jinja.</li>
+                            
+                        </ul>
+                    </div>
+                    
+                    <div class="pl-14 md:w-[45%] mt-6 md:mt-0 md:pl-12">
+                        <div class="rounded-xl overflow-hidden shadow-lg mb-4">
+                            <img src="https://raw.githubusercontent.com/shepper1/Nikko-hakone--kyoto-osaka/main/jour6.jpg" class="w-full h-64 object-cover" alt="Jour 6">
+                        </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">🎫 Hakone Free Pass</p>
+                                <p class="text-gray-700">Le Hakone Free Pass est fortement recommandé. Il couvre tous les transports locaux (train, bus, bateau, téléphérique) et offre des réductions sur certaines attractions. Il est valable 2 ou 3 jours.</p>
+                            </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">♨️ Ryokan et Onsen</p>
+                                <p class="text-gray-700">Séjourner dans un ryokan (auberge traditionnelle japonaise) avec onsen (sources chaudes) est une expérience incontournable à Hakone. Réservez à l'avance pour garantir votre place.</p>
+                            </div>
+                        
+                    </div>
+                </div>
+                
+                <div id="jour-7" class="section-etape relative z-10 mb-20 md:flex md:flex-row-reverse md:justify-between items-start group scroll-mt-32">
+                    
+                    <div class="absolute left-6 md:left-1/2 transform -translate-x-1/2 w-8 h-8 bg-template-roche rounded-full border-4 border-white shadow-lg flex items-center justify-center z-20"></div>
+                    
+                    <div class="md:w-[45%] pl-14 md:text-left md:pl-12">
+                        <span class="font-serif text-3xl block text-template-roche mb-2">Jour 7</span>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Paysages Volcaniques et Art à Hakone</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed italic mb-4">Explorez les paysages volcaniques d'Owakudani, puis laissez-vous transporter par les vues aériennes du téléphérique. Terminez la journée par une immersion artistique au Pola Museum, combinant nature et culture dans un cadre exceptionnel.</p>
+                        <ul class="text-sm text-gray-700 space-y-2 inline-block text-left">
+                            
+                                <li>🌋 <strong>Découverte d'Owakudani, la Vallée de l'Enfer</strong>: Explorez cette zone volcanique active, célèbre pour ses fumerolles de soufre et ses œufs noirs (kuro-tamago) cuits dans les sources chaudes. La vue sur le Mont Fuji y est souvent spectaculaire.</li>
+                            
+                                <li>🚠 <strong>Trajet en téléphérique de Hakone</strong>: Profitez d'une vue imprenable sur le lac Ashi, le Mont Fuji et la vallée d'Owakudani depuis le téléphérique. C'est une façon pittoresque de se déplacer dans la région.</li>
+                            
+                                <li>🖼️ <strong>Visite du Pola Museum of Art</strong>: Niché au cœur de la forêt, ce musée abrite une impressionnante collection d'art occidental et japonais, avec une architecture moderne qui se fond parfaitement dans le paysage.</li>
+                            
+                        </ul>
+                    </div>
+                    
+                    <div class="pl-14 md:w-[45%] mt-6 md:mt-0 md:pr-12">
+                        <div class="rounded-xl overflow-hidden shadow-lg mb-4">
+                            <img src="https://raw.githubusercontent.com/shepper1/Nikko-hakone--kyoto-osaka/main/jour7.jpg" class="w-full h-64 object-cover" alt="Jour 7">
+                        </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">😷 Précautions à Owakudani</p>
+                                <p class="text-gray-700">L'odeur de soufre à Owakudani peut être forte. Si vous êtes sensible, un masque peut être utile. Les personnes ayant des problèmes respiratoires sont parfois déconseillées de s'y rendre.</p>
+                            </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">🥚 Les Œufs Noirs</p>
+                                <p class="text-gray-700">Goûtez aux kuro-tamago (œufs noirs) à Owakudani. On dit qu'ils prolongent la vie de sept ans ! C'est une expérience culinaire locale amusante et unique.</p>
+                            </div>
+                        
+                    </div>
+                </div>
+                
+                <div id="jour-8" class="section-etape relative z-10 mb-20 md:flex  md:justify-between items-start group scroll-mt-32">
+                    
+                    <div class="absolute left-6 md:left-1/2 transform -translate-x-1/2 w-8 h-8 bg-template-ocre rounded-full border-4 border-white shadow-lg flex items-center justify-center z-20"></div>
+                    
+                    <div class="md:w-[45%] pl-14 md:text-right md:pr-12">
+                        <span class="font-serif text-3xl block text-template-roche mb-2">Jour 8</span>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Voyage vers Kyoto, l'Ancienne Capitale</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed italic mb-4">Laissez derrière vous les montagnes de Hakone pour rejoindre Kyoto, le cœur culturel et historique du Japon. Après l'installation, plongez directement dans l'ambiance de la ville en explorant le marché de Nishiki et le quartier emblématique de Gion.</p>
+                        <ul class="text-sm text-gray-700 space-y-2 inline-block text-left">
+                            
+                                <li>🚄 <strong>Voyage en Shinkansen vers Kyoto</strong>: Prenez le Shinkansen de Odawara (près de Hakone) à Kyoto. Le trajet est rapide et confortable, offrant des vues sur la campagne japonaise.</li>
+                            
+                                <li>🛍️ <strong>Découverte du Marché de Nishiki</strong>: Surnommé la 'cuisine de Kyoto', ce marché couvert est un festival de saveurs et de couleurs. Goûtez aux spécialités locales et découvrez l'artisanat traditionnel.</li>
+                            
+                                <li>🌸 <strong>Balade dans le quartier de Gion</strong>: Flânez dans les rues pavées de Gion, le quartier historique des geishas. Le soir, vous pourriez avoir la chance d'apercevoir une geiko ou maiko se rendant à un rendez-vous.</li>
+                            
+                        </ul>
+                    </div>
+                    
+                    <div class="pl-14 md:w-[45%] mt-6 md:mt-0 md:pl-12">
+                        <div class="rounded-xl overflow-hidden shadow-lg mb-4">
+                            <img src="https://raw.githubusercontent.com/shepper1/Nikko-hakone--kyoto-osaka/main/jour8.jpg" class="w-full h-64 object-cover" alt="Jour 8">
+                        </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">🚌 Transports à Kyoto</p>
+                                <p class="text-gray-700">Kyoto est bien desservie par un réseau de bus. Un pass journalier pour le bus est souvent le moyen le plus économique et pratique pour se déplacer entre les différents sites.</p>
+                            </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">📸 Respect à Gion</p>
+                                <p class="text-gray-700">Lorsque vous explorez Gion, soyez respectueux de la vie privée des geishas et des habitants. Il est interdit de les photographier sans leur consentement et de les importuner.</p>
+                            </div>
+                        
+                    </div>
+                </div>
+                
+                <div id="jour-9" class="section-etape relative z-10 mb-20 md:flex md:flex-row-reverse md:justify-between items-start group scroll-mt-32">
+                    
+                    <div class="absolute left-6 md:left-1/2 transform -translate-x-1/2 w-8 h-8 bg-template-ciel rounded-full border-4 border-white shadow-lg flex items-center justify-center z-20"></div>
+                    
+                    <div class="md:w-[45%] pl-14 md:text-left md:pl-12">
+                        <span class="font-serif text-3xl block text-template-roche mb-2">Jour 9</span>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Temples d'Or et Jardins Zen de Kyoto</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed italic mb-4">Cette journée est dédiée à la découverte des icônes de Kyoto : le Pavillon d'Or scintillant, le jardin zen minimaliste de Ryoan-ji et la sérénité de la bambouseraie d'Arashiyama. Une immersion profonde dans l'esthétique japonaise.</p>
+                        <ul class="text-sm text-gray-700 space-y-2 inline-block text-left">
+                            
+                                <li>✨ <strong>Visite du Kinkaku-ji (Pavillon d'Or)</strong>: Admirez ce temple bouddhiste recouvert d'or pur, se reflétant magnifiquement sur l'étang. C'est l'une des images les plus emblématiques du Japon.</li>
+                            
+                                <li>🧘‍♀️ <strong>Méditation au Ryoan-ji (Jardin Zen)</strong>: Contemplez le célèbre jardin de pierres de Ryoan-ji, un chef-d'œuvre de l'art zen. Son mystère et sa simplicité invitent à la réflexion et à la tranquillité.</li>
+                            
+                                <li>🎋 <strong>Promenade dans la Bambouseraie d'Arashiyama</strong>: Perdez-vous dans la majestueuse forêt de bambous d'Arashiyama. Le son du vent soufflant à travers les tiges crée une atmosphère magique et apaisante.</li>
+                            
+                        </ul>
+                    </div>
+                    
+                    <div class="pl-14 md:w-[45%] mt-6 md:mt-0 md:pr-12">
+                        <div class="rounded-xl overflow-hidden shadow-lg mb-4">
+                            <img src="https://raw.githubusercontent.com/shepper1/Nikko-hakone--kyoto-osaka/main/jour9.jpg" class="w-full h-64 object-cover" alt="Jour 9">
+                        </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">⏰ Visite Matinale</p>
+                                <p class="text-gray-700">Pour profiter pleinement de la sérénité du Kinkaku-ji et de la bambouseraie d'Arashiyama, essayez de les visiter tôt le matin. Vous éviterez ainsi les foules et profiterez d'une ambiance plus calme.</p>
+                            </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">🚶‍♂️ Chemin à Arashiyama</p>
+                                <p class="text-gray-700">Après la bambouseraie, continuez votre promenade vers le temple Tenryu-ji et le pont Togetsukyo pour compléter votre exploration d'Arashiyama. Les vues sur la rivière sont magnifiques.</p>
+                            </div>
+                        
+                    </div>
+                </div>
+                
+                <div id="jour-10" class="section-etape relative z-10 mb-20 md:flex  md:justify-between items-start group scroll-mt-32">
+                    
+                    <div class="absolute left-6 md:left-1/2 transform -translate-x-1/2 w-8 h-8 bg-template-roche rounded-full border-4 border-white shadow-lg flex items-center justify-center z-20"></div>
+                    
+                    <div class="md:w-[45%] pl-14 md:text-right md:pr-12">
+                        <span class="font-serif text-3xl block text-template-roche mb-2">Jour 10</span>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Mille Portes Torii et Cerfs de Nara</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed italic mb-4">Une journée d'excursion emblématique vous attend, avec les milliers de portes torii rouges de Fushimi Inari et la rencontre avec les cerfs sacrés de Nara. Une immersion dans la spiritualité shintoïste et la nature japonaise.</p>
+                        <ul class="text-sm text-gray-700 space-y-2 inline-block text-left">
+                            
+                                <li>🦊 <strong>Randonnée au Fushimi Inari-taisha</strong>: Gravissez la montagne sacrée à travers les milliers de portes torii vermillon. Chaque porte est un don, créant un tunnel mystique et photogénique.</li>
+                            
+                                <li>🦌 <strong>Rencontre avec les cerfs de Nara au Parc de Nara</strong>: Voyagez à Nara pour interagir avec les cerfs sika, considérés comme des messagers divins. Vous pouvez acheter des crackers spéciaux pour les nourrir.</li>
+                            
+                                <li>🏛️ <strong>Visite du Temple Todai-ji à Nara</strong>: Admirez le Daibutsu-den, le plus grand bâtiment en bois du monde, abritant une immense statue de Bouddha en bronze. C'est un chef-d'œuvre architectural et spirituel.</li>
+                            
+                        </ul>
+                    </div>
+                    
+                    <div class="pl-14 md:w-[45%] mt-6 md:mt-0 md:pl-12">
+                        <div class="rounded-xl overflow-hidden shadow-lg mb-4">
+                            <img src="https://raw.githubusercontent.com/shepper1/Nikko-hakone--kyoto-osaka/main/jour10.jpg" class="w-full h-64 object-cover" alt="Jour 10">
+                        </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">👟 Chaussures de Marche</p>
+                                <p class="text-gray-700">La montée à Fushimi Inari peut être longue et raide par endroits. Prévoyez des chaussures de marche confortables et de l'eau, surtout par temps chaud.</p>
+                            </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">⚠️ Attention aux Cerfs</p>
+                                <p class="text-gray-700">Les cerfs de Nara sont habitués aux humains mais peuvent être insistants pour la nourriture. Tenez vos sacs fermés et soyez prudent, surtout avec les jeunes enfants.</p>
+                            </div>
+                        
+                    </div>
+                </div>
+                
+                <div id="jour-11" class="section-etape relative z-10 mb-20 md:flex md:flex-row-reverse md:justify-between items-start group scroll-mt-32">
+                    
+                    <div class="absolute left-6 md:left-1/2 transform -translate-x-1/2 w-8 h-8 bg-template-ocre rounded-full border-4 border-white shadow-lg flex items-center justify-center z-20"></div>
+                    
+                    <div class="md:w-[45%] pl-14 md:text-left md:pl-12">
+                        <span class="font-serif text-3xl block text-template-roche mb-2">Jour 11</span>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Culture, Artisanat et Sérénité à Kyoto</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed italic mb-4">Découvrez l'un des temples les plus emblématiques de Kyoto, Kiyomizu-dera, puis suivez le chemin des philosophes pour une promenade méditative. Terminez par une expérience authentique de cérémonie du thé, plongeant au cœur des traditions japonaises.</p>
+                        <ul class="text-sm text-gray-700 space-y-2 inline-block text-left">
+                            
+                                <li>⛩️ <strong>Visite du Temple Kiyomizu-dera</strong>: Ce temple classé à l'UNESCO offre une vue panoramique sur Kyoto depuis sa célèbre plateforme en bois. Explorez ses halls et ses sources sacrées.</li>
+                            
+                                <li>🚶‍♀️ <strong>Promenade sur le Chemin des Philosophes (Tetsugaku no Michi)</strong>: Suivez ce sentier paisible le long d'un canal, bordé de cerisiers. C'est un lieu idéal pour une promenade contemplative, surtout au printemps ou à l'automne.</li>
+                            
+                                <li>🍵 <strong>Participation à une Cérémonie du Thé Traditionnelle</strong>: Imprégnez-vous de l'art du chanoyu, la cérémonie du thé japonaise. C'est une expérience culturelle raffinée qui met l'accent sur l'harmonie et le respect.</li>
+                            
+                        </ul>
+                    </div>
+                    
+                    <div class="pl-14 md:w-[45%] mt-6 md:mt-0 md:pr-12">
+                        <div class="rounded-xl overflow-hidden shadow-lg mb-4">
+                            <img src="https://raw.githubusercontent.com/shepper1/Nikko-hakone--kyoto-osaka/main/jour11.jpg" class="w-full h-64 object-cover" alt="Jour 11">
+                        </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">🛍️ Souvenirs près de Kiyomizu-dera</p>
+                                <p class="text-gray-700">Les rues Sannenzaka et Ninenzaka, menant à Kiyomizu-dera, sont bordées de boutiques d'artisanat traditionnel et de maisons de thé. C'est l'endroit parfait pour acheter des souvenirs uniques.</p>
+                            </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">📅 Réserver la Cérémonie du Thé</p>
+                                <p class="text-gray-700">Il est conseillé de réserver votre cérémonie du thé à l'avance, surtout si vous souhaitez une expérience en anglais ou dans un lieu spécifique. De nombreux centres culturels proposent cette activité.</p>
+                            </div>
+                        
+                    </div>
+                </div>
+                
+                <div id="jour-12" class="section-etape relative z-10 mb-20 md:flex  md:justify-between items-start group scroll-mt-32">
+                    
+                    <div class="absolute left-6 md:left-1/2 transform -translate-x-1/2 w-8 h-8 bg-template-ciel rounded-full border-4 border-white shadow-lg flex items-center justify-center z-20"></div>
+                    
+                    <div class="md:w-[45%] pl-14 md:text-right md:pr-12">
+                        <span class="font-serif text-3xl block text-template-roche mb-2">Jour 12</span>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Châteaux, Jardins et Spectacles Traditionnels</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed italic mb-4">Explorez l'histoire impériale de Kyoto avec le magnifique château de Nijo, puis admirez l'architecture unique du sanctuaire Heian Jingu. Terminez la journée par un spectacle des arts traditionnels japonais, offrant un aperçu de la richesse culturelle de la ville.</p>
+                        <ul class="text-sm text-gray-700 space-y-2 inline-block text-left">
+                            
+                                <li>🏯 <strong>Visite du Château de Nijo</strong>: Explorez cette ancienne résidence du shogun, célèbre pour ses 'planchers rossignols' qui chantent sous les pas et ses magnifiques jardins. C'est un témoignage de l'histoire féodale du Japon.</li>
+                            
+                                <li>⛩️ <strong>Découverte du Sanctuaire Heian Jingu</strong>: Admirez l'architecture impressionnante de ce sanctuaire shintoïste, avec son immense torii rouge et ses vastes jardins. Il a été construit pour célébrer le 1100e anniversaire de la fondation de Kyoto.</li>
+                            
+                                <li>🎭 <strong>Spectacle des Arts Traditionnels au Gion Corner</strong>: Assistez à une représentation des sept arts classiques japonais, incluant la cérémonie du thé, l'ikebana (arrangement floral), la musique de koto, la danse de maiko et le bunraku (théâtre de marionnettes).</li>
+                            
+                        </ul>
+                    </div>
+                    
+                    <div class="pl-14 md:w-[45%] mt-6 md:mt-0 md:pl-12">
+                        <div class="rounded-xl overflow-hidden shadow-lg mb-4">
+                            <img src="https://raw.githubusercontent.com/shepper1/Nikko-hakone--kyoto-osaka/main/jour12.jpg" class="w-full h-64 object-cover" alt="Jour 12">
+                        </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">🌸 Jardins de Nijo</p>
+                                <p class="text-gray-700">Les jardins du Château de Nijo sont particulièrement beaux au printemps avec les cerisiers en fleurs et à l'automne avec les couleurs des érables. Prenez le temps de vous y promener.</p>
+                            </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">🎟️ Billets Gion Corner</p>
+                                <p class="text-gray-700">Les spectacles au Gion Corner sont populaires. Il est recommandé d'acheter vos billets à l'avance, surtout pendant la haute saison, pour garantir votre place.</p>
+                            </div>
+                        
+                    </div>
+                </div>
+                
+                <div id="jour-13" class="section-etape relative z-10 mb-20 md:flex md:flex-row-reverse md:justify-between items-start group scroll-mt-32">
+                    
+                    <div class="absolute left-6 md:left-1/2 transform -translate-x-1/2 w-8 h-8 bg-template-roche rounded-full border-4 border-white shadow-lg flex items-center justify-center z-20"></div>
+                    
+                    <div class="md:w-[45%] pl-14 md:text-left md:pl-12">
+                        <span class="font-serif text-3xl block text-template-roche mb-2">Jour 13</span>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Détente et Exploration Libre à Kyoto</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed italic mb-4">Profitez d'une journée plus libre pour explorer Kyoto à votre rythme. Visitez un temple moins connu, flânez dans les rues commerçantes ou détendez-vous au bord de la rivière Kamo. C'est l'occasion de découvrir des facettes cachées de la ville.</p>
+                        <ul class="text-sm text-gray-700 space-y-2 inline-block text-left">
+                            
+                                <li>🏛️ <strong>Visite du Sanjusangen-do Temple</strong>: Admirez les 1001 statues de Kannon, la déesse de la miséricorde, alignées dans le hall principal. C'est une vision impressionnante et spirituelle.</li>
+                            
+                                <li>🛍️ <strong>Shopping et Exploration autour de la Gare de Kyoto</strong>: La gare de Kyoto est un centre commercial à part entière, avec des boutiques, des restaurants et même un grand magasin. Montez à la Kyoto Tower pour une dernière vue sur la ville.</li>
+                            
+                                <li>🚶‍♀️ <strong>Balade le long de la Rivière Kamo</strong>: Profitez d'une promenade relaxante le long de la rivière Kamo. C'est un lieu prisé des habitants pour se détendre, faire du jogging ou pique-niquer.</li>
+                            
+                        </ul>
+                    </div>
+                    
+                    <div class="pl-14 md:w-[45%] mt-6 md:mt-0 md:pr-12">
+                        <div class="rounded-xl overflow-hidden shadow-lg mb-4">
+                            <img src="https://raw.githubusercontent.com/shepper1/Nikko-hakone--kyoto-osaka/main/jour13.jpg" class="w-full h-64 object-cover" alt="Jour 13">
+                        </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">🍜 Ramen à Kyoto</p>
+                                <p class="text-gray-700">Kyoto est réputée pour ses ramen. N'hésitez pas à essayer un des nombreux restaurants spécialisés, comme ceux de la 'Ramen Street' à la gare de Kyoto, pour un repas savoureux et réconfortant.</p>
+                            </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">🎁 Derniers Achats</p>
+                                <p class="text-gray-700">Profitez de cette journée pour acheter les derniers souvenirs ou cadeaux. Les centres commerciaux de la gare de Kyoto ou les petites boutiques de Gion et Pontocho offrent un large choix.</p>
+                            </div>
+                        
+                    </div>
+                </div>
+                
+                <div id="jour-14" class="section-etape relative z-10 mb-20 md:flex  md:justify-between items-start group scroll-mt-32">
+                    
+                    <div class="absolute left-6 md:left-1/2 transform -translate-x-1/2 w-8 h-8 bg-template-ocre rounded-full border-4 border-white shadow-lg flex items-center justify-center z-20"></div>
+                    
+                    <div class="md:w-[45%] pl-14 md:text-right md:pr-12">
+                        <span class="font-serif text-3xl block text-template-roche mb-2">Jour 14</span>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Voyage vers Osaka, la Ville Gourmande</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed italic mb-4">Quittez la sérénité de Kyoto pour l'énergie vibrante d'Osaka, la capitale culinaire du Japon. Après l'installation, plongez directement dans l'ambiance électrique de Dotonbori, un festival de néons, de saveurs et de divertissements.</p>
+                        <ul class="text-sm text-gray-700 space-y-2 inline-block text-left">
+                            
+                                <li>🚄 <strong>Voyage en Shinkansen vers Osaka</strong>: Le trajet entre Kyoto et Osaka est très court (environ 15 minutes) et couvert par le JR Pass. Installez-vous dans votre hôtel et préparez-vous à explorer.</li>
+                            
+                                <li>🍜 <strong>Immersion à Dotonbori et sa Street Food</strong>: Explorez le quartier emblématique de Dotonbori, célèbre pour ses enseignes lumineuses géantes et sa cuisine de rue. Goûtez aux takoyaki, okonomiyaki et kushikatsu.</li>
+                            
+                                <li>🛍️ <strong>Shopping à Shinsaibashi</strong>: Flânez dans la longue galerie commerçante de Shinsaibashi, adjacente à Dotonbori. Vous y trouverez des boutiques de mode, des grands magasins et des cafés.</li>
+                            
+                        </ul>
+                    </div>
+                    
+                    <div class="pl-14 md:w-[45%] mt-6 md:mt-0 md:pl-12">
+                        <div class="rounded-xl overflow-hidden shadow-lg mb-4">
+                            <img src="https://raw.githubusercontent.com/shepper1/Nikko-hakone--kyoto-osaka/main/jour14.jpg" class="w-full h-64 object-cover" alt="Jour 14">
+                        </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">🚇 Osaka Loop Line</p>
+                                <p class="text-gray-700">La Osaka Loop Line (ligne circulaire JR) est très pratique pour se déplacer dans la ville et est couverte par le JR Pass. Elle dessert les principaux quartiers et attractions.</p>
+                            </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">🐙 Spécialités d'Osaka</p>
+                                <p class="text-gray-700">Ne quittez pas Osaka sans avoir goûté aux takoyaki (boulettes de poulpe) et okonomiyaki (crêpes salées). Chaque restaurant a sa propre recette, n'hésitez pas à en essayer plusieurs !</p>
+                            </div>
+                        
+                    </div>
+                </div>
+                
+                <div id="jour-15" class="section-etape relative z-10 mb-20 md:flex md:flex-row-reverse md:justify-between items-start group scroll-mt-32">
+                    
+                    <div class="absolute left-6 md:left-1/2 transform -translate-x-1/2 w-8 h-8 bg-template-ciel rounded-full border-4 border-white shadow-lg flex items-center justify-center z-20"></div>
+                    
+                    <div class="md:w-[45%] pl-14 md:text-left md:pl-12">
+                        <span class="font-serif text-3xl block text-template-roche mb-2">Jour 15</span>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Histoire, Rétro-Futur et Vues Panoramiques</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed italic mb-4">Découvrez l'histoire d'Osaka avec son château majestueux, puis plongez dans l'ambiance rétro-futuriste de Shinsekai. Terminez la journée par une vue imprenable sur la ville depuis l'Umeda Sky Building, offrant un contraste saisissant entre passé et présent.</p>
+                        <ul class="text-sm text-gray-700 space-y-2 inline-block text-left">
+                            
+                                <li>🏯 <strong>Visite du Château d'Osaka</strong>: Explorez ce château emblématique, symbole de la ville. Son musée retrace l'histoire d'Osaka et de Toyotomi Hideyoshi, et les jardins offrent une belle promenade.</li>
+                            
+                                <li>🗼 <strong>Exploration du quartier de Shinsekai</strong>: Plongez dans l'ambiance nostalgique et un peu kitsch de Shinsekai, avec sa tour Tsutenkaku et ses restaurants traditionnels. C'est un voyage dans le temps.</li>
+                            
+                                <li>🏙️ <strong>Vue depuis l'Umeda Sky Building</strong>: Montez au 'Jardin Flottant' de l'Umeda Sky Building pour une vue panoramique à 360 degrés sur Osaka. Le coucher de soleil y est particulièrement spectaculaire.</li>
+                            
+                        </ul>
+                    </div>
+                    
+                    <div class="pl-14 md:w-[45%] mt-6 md:mt-0 md:pr-12">
+                        <div class="rounded-xl overflow-hidden shadow-lg mb-4">
+                            <img src="https://raw.githubusercontent.com/shepper1/Nikko-hakone--kyoto-osaka/main/jour15.jpg" class="w-full h-64 object-cover" alt="Jour 15">
+                        </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">🎟️ Osaka Amazing Pass</p>
+                                <p class="text-gray-700">Si vous prévoyez de visiter plusieurs attractions et d'utiliser les transports en commun, l'Osaka Amazing Pass peut être très avantageux. Il inclut l'accès à de nombreux sites et les transports illimités.</p>
+                            </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">🍢 Kushikatsu à Shinsekai</p>
+                                <p class="text-gray-700">Shinsekai est le meilleur endroit pour goûter au kushikatsu, des brochettes frites de viande, de poisson ou de légumes. N'oubliez pas la règle : une seule trempette dans la sauce !</p>
+                            </div>
+                        
+                    </div>
+                </div>
+                
+                <div id="jour-16" class="section-etape relative z-10 mb-20 md:flex  md:justify-between items-start group scroll-mt-32">
+                    
+                    <div class="absolute left-6 md:left-1/2 transform -translate-x-1/2 w-8 h-8 bg-template-roche rounded-full border-4 border-white shadow-lg flex items-center justify-center z-20"></div>
+                    
+                    <div class="md:w-[45%] pl-14 md:text-right md:pr-12">
+                        <span class="font-serif text-3xl block text-template-roche mb-2">Jour 16</span>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Divertissement ou Immersion Locale</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed italic mb-4">Choisissez votre aventure : frissons et magie à Universal Studios Japan, ou une immersion plus locale avec la plus longue rue commerçante du Japon et un musée fascinant sur la vie d'autrefois à Osaka. Une journée pour satisfaire toutes les envies.</p>
+                        <ul class="text-sm text-gray-700 space-y-2 inline-block text-left">
+                            
+                                <li>🎢 <strong>Option 1: Journée à Universal Studios Japan</strong>: Plongez dans le monde de vos films préférés, avec des attractions à sensations fortes et des zones thématiques comme The Wizarding World of Harry Potter. Une journée de divertissement garantie.</li>
+                            
+                                <li>🛍️ <strong>Option 2: Tenjinbashi-suji Shopping Street</strong>: Explorez la plus longue rue commerçante couverte du Japon, s'étendant sur 2,6 km. Vous y trouverez des boutiques locales, des restaurants et une ambiance authentique.</li>
+                            
+                                <li>🏠 <strong>Option 2: Osaka Museum of Housing and Living</strong>: Découvrez la vie à Osaka à l'époque d'Edo grâce à une reconstitution grandeur nature d'une rue commerçante. Une immersion fascinante dans le passé de la ville.</li>
+                            
+                        </ul>
+                    </div>
+                    
+                    <div class="pl-14 md:w-[45%] mt-6 md:mt-0 md:pl-12">
+                        <div class="rounded-xl overflow-hidden shadow-lg mb-4">
+                            <img src="https://raw.githubusercontent.com/shepper1/Nikko-hakone--kyoto-osaka/main/jour16.jpg" class="w-full h-64 object-cover" alt="Jour 16">
+                        </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">🎟️ Billets Universal Studios</p>
+                                <p class="text-gray-700">Réservez vos billets pour Universal Studios Japan bien à l'avance, surtout si vous prévoyez d'y aller le week-end ou pendant les vacances. Un Express Pass peut réduire les temps d'attente.</p>
+                            </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">🚶‍♀️ Exploration de Tenjinbashi-suji</p>
+                                <p class="text-gray-700">La Tenjinbashi-suji Shopping Street est immense. Prévoyez plusieurs heures pour l'explorer et n'hésitez pas à vous arrêter dans les petits restaurants pour goûter aux spécialités locales à des prix abordables.</p>
+                            </div>
+                        
+                    </div>
+                </div>
+                
+                <div id="jour-17" class="section-etape relative z-10 mb-20 md:flex md:flex-row-reverse md:justify-between items-start group scroll-mt-32">
+                    
+                    <div class="absolute left-6 md:left-1/2 transform -translate-x-1/2 w-8 h-8 bg-template-ocre rounded-full border-4 border-white shadow-lg flex items-center justify-center z-20"></div>
+                    
+                    <div class="md:w-[45%] pl-14 md:text-left md:pl-12">
+                        <span class="font-serif text-3xl block text-template-roche mb-2">Jour 17</span>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Marché, Shopping et Détente à Osaka</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed italic mb-4">Débutez la journée par l'effervescence du marché de Kuromon Ichiba, puis explorez l'architecture moderne de Namba Parks. Terminez par une session de relaxation dans un onsen urbain, pour recharger les batteries avant de quitter Osaka.</p>
+                        <ul class="text-sm text-gray-700 space-y-2 inline-block text-left">
+                            
+                                <li>🐟 <strong>Découverte du Marché de Kuromon Ichiba</strong>: Surnommé la 'cuisine d'Osaka', ce marché couvert est un paradis pour les gourmands. Goûtez aux fruits de mer frais, aux sushis et aux brochettes.</li>
+                            
+                                <li>🌳 <strong>Exploration de Namba Parks</strong>: Admirez l'architecture unique de ce complexe commercial et de bureaux, avec ses jardins en terrasses et ses cascades. C'est un espace vert surprenant au cœur de la ville.</li>
+                            
+                                <li>♨️ <strong>Détente au Spa World Onsen</strong>: Profitez des bains thermaux de Spa World, un complexe de onsen géant avec des zones thématiques européennes et asiatiques. Une excellente façon de se détendre après plusieurs jours de marche.</li>
+                            
+                        </ul>
+                    </div>
+                    
+                    <div class="pl-14 md:w-[45%] mt-6 md:mt-0 md:pr-12">
+                        <div class="rounded-xl overflow-hidden shadow-lg mb-4">
+                            <img src="https://raw.githubusercontent.com/shepper1/Nikko-hakone--kyoto-osaka/main/jour17.jpg" class="w-full h-64 object-cover" alt="Jour 17">
+                        </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">🍣 Dégustation au Marché</p>
+                                <p class="text-gray-700">Au marché de Kuromon Ichiba, n'hésitez pas à goûter aux nombreux échantillons et aux plats préparés sur place. C'est une expérience culinaire interactive et délicieuse.</p>
+                            </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">🧖‍♀️ Règles des Onsen</p>
+                                <p class="text-gray-700">Familiarisez-vous avec l'étiquette des onsen avant d'y aller (douche obligatoire avant le bain, pas de maillot de bain, séparation hommes/femmes). C'est une expérience très relaxante si les règles sont respectées.</p>
+                            </div>
+                        
+                    </div>
+                </div>
+                
+                <div id="jour-18" class="section-etape relative z-10 mb-20 md:flex  md:justify-between items-start group scroll-mt-32">
+                    
+                    <div class="absolute left-6 md:left-1/2 transform -translate-x-1/2 w-8 h-8 bg-template-ciel rounded-full border-4 border-white shadow-lg flex items-center justify-center z-20"></div>
+                    
+                    <div class="md:w-[45%] pl-14 md:text-right md:pr-12">
+                        <span class="font-serif text-3xl block text-template-roche mb-2">Jour 18</span>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Retour à Tokyo et Élégance de Ginza</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed italic mb-4">Embarquez à nouveau à bord du Shinkansen pour retourner à Tokyo. Profitez de l'après-midi pour explorer le quartier chic de Ginza, réputé pour ses boutiques de luxe, ses galeries d'art et ses restaurants raffinés. Une transition en douceur vers la capitale.</p>
+                        <ul class="text-sm text-gray-700 space-y-2 inline-block text-left">
+                            
+                                <li>🚄 <strong>Voyage en Shinkansen vers Tokyo</strong>: Profitez du confort du Shinkansen pour votre retour à Tokyo. Le trajet dure environ 2h30 et est couvert par le JR Pass.</li>
+                            
+                                <li>🛍️ <strong>Exploration du quartier de Ginza</strong>: Flânez dans les rues élégantes de Ginza, le quartier du luxe et de la haute couture. Admirez les vitrines des grands magasins et des marques internationales.</li>
+                            
+                                <li>🎭 <strong>Visite du Théâtre Kabuki-za (extérieur)</strong>: Admirez l'architecture traditionnelle du célèbre théâtre Kabuki-za à Ginza. Si le temps le permet, vous pouvez assister à un acte de Kabuki pour une immersion culturelle.</li>
+                            
+                        </ul>
+                    </div>
+                    
+                    <div class="pl-14 md:w-[45%] mt-6 md:mt-0 md:pl-12">
+                        <div class="rounded-xl overflow-hidden shadow-lg mb-4">
+                            <img src="https://raw.githubusercontent.com/shepper1/Nikko-hakone--kyoto-osaka/main/jour18.jpg" class="w-full h-64 object-cover" alt="Jour 18">
+                        </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">📦 Service de Bagages</p>
+                                <p class="text-gray-700">Si vous avez beaucoup de bagages, utilisez le service de livraison de bagages (Takuhaibin) pour envoyer vos valises directement de votre hôtel d'Osaka à votre hôtel de Tokyo. C'est très pratique et fiable.</p>
+                            </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">🚶‍♀️ Ginza le Dimanche</p>
+                                <p class="text-gray-700">Le dimanche, la rue principale de Ginza (Chuo-dori) est souvent piétonne, offrant une expérience de promenade plus agréable et moins encombrée par la circulation.</p>
+                            </div>
+                        
+                    </div>
+                </div>
+                
+                <div id="jour-19" class="section-etape relative z-10 mb-20 md:flex md:flex-row-reverse md:justify-between items-start group scroll-mt-32">
+                    
+                    <div class="absolute left-6 md:left-1/2 transform -translate-x-1/2 w-8 h-8 bg-template-roche rounded-full border-4 border-white shadow-lg flex items-center justify-center z-20"></div>
+                    
+                    <div class="md:w-[45%] pl-14 md:text-left md:pl-12">
+                        <span class="font-serif text-3xl block text-template-roche mb-2">Jour 19</span>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Derniers Souvenirs et Adieux à Tokyo</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed italic mb-4">Profitez de cette dernière journée complète à Tokyo pour faire vos derniers achats, revisiter un quartier coup de cœur ou explorer une zone que vous n'avez pas encore eu le temps de voir. Une journée pour créer des souvenirs durables avant le départ.</p>
+                        <ul class="text-sm text-gray-700 space-y-2 inline-block text-left">
+                            
+                                <li>🌉 <strong>Visite de l'île artificielle d'Odaiba</strong>: Explorez ce quartier futuriste avec ses centres commerciaux, ses musées interactifs et sa réplique de la Statue de la Liberté. Profitez de la vue sur la baie de Tokyo et le Rainbow Bridge.</li>
+                            
+                                <li>🛍️ <strong>Derniers achats de souvenirs à Tokyo Station City</strong>: La gare de Tokyo et ses environs regorgent de boutiques proposant des souvenirs, des produits locaux et des spécialités culinaires. C'est l'endroit idéal pour les cadeaux de dernière minute.</li>
+                            
+                                <li>🍜 <strong>Dîner d'adieu dans un quartier animé</strong>: Choisissez un quartier que vous avez aimé (Shinjuku, Shibuya, Ginza) pour un dernier dîner mémorable. C'est l'occasion de savourer une dernière fois la cuisine japonaise.</li>
+                            
+                        </ul>
+                    </div>
+                    
+                    <div class="pl-14 md:w-[45%] mt-6 md:mt-0 md:pr-12">
+                        <div class="rounded-xl overflow-hidden shadow-lg mb-4">
+                            <img src="https://raw.githubusercontent.com/shepper1/Nikko-hakone--kyoto-osaka/main/jour19.jpg" class="w-full h-64 object-cover" alt="Jour 19">
+                        </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">🎟️ Musée Ghibli</p>
+                                <p class="text-gray-700">Si vous êtes fan du Studio Ghibli, le musée Ghibli à Mitaka (près de Tokyo) est un incontournable. Les billets doivent être achetés plusieurs mois à l'avance, car ils sont très demandés.</p>
+                            </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">🎁 Tax Free Shopping</p>
+                                <p class="text-gray-700">De nombreux magasins au Japon offrent des achats hors taxes (tax-free) pour les touristes. Cherchez le logo 'Japan Tax-Free Shop' et ayez votre passeport à portée de main pour en bénéficier.</p>
+                            </div>
+                        
+                    </div>
+                </div>
+                
+                <div id="jour-20" class="section-etape relative z-10 mb-20 md:flex  md:justify-between items-start group scroll-mt-32">
+                    
+                    <div class="absolute left-6 md:left-1/2 transform -translate-x-1/2 w-8 h-8 bg-template-ocre rounded-full border-4 border-white shadow-lg flex items-center justify-center z-20"></div>
+                    
+                    <div class="md:w-[45%] pl-14 md:text-right md:pr-12">
+                        <span class="font-serif text-3xl block text-template-roche mb-2">Jour 20</span>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Départ de Tokyo</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed italic mb-4">Après 20 jours d'exploration intense, il est temps de dire au revoir au Japon. Profitez d'un dernier petit-déjeuner japonais avant de vous rendre à l'aéroport pour votre vol retour vers Roissy, la tête pleine de souvenirs inoubliables.</p>
+                        <ul class="text-sm text-gray-700 space-y-2 inline-block text-left">
+                            
+                                <li>🍳 <strong>Dernier petit-déjeuner japonais</strong>: Savourez un dernier petit-déjeuner traditionnel ou occidental à votre hôtel ou dans un café local. C'est l'occasion de se remémorer les meilleurs moments du voyage.</li>
+                            
+                                <li>✈️ <strong>Transfert vers l'aéroport (Narita ou Haneda)</strong>: Organisez votre transfert vers l'aéroport en fonction de l'heure de votre vol. Le Narita Express (N'EX) ou le Keisei Skyliner sont des options rapides et efficaces pour Narita, tandis que le Keikyu Line est idéal pour Haneda.</li>
+                            
+                                <li>🛫 <strong>Enregistrement et Vol retour vers Roissy</strong>: Procédez à l'enregistrement de vos bagages et passez les contrôles de sécurité. Il est temps de prendre votre vol retour, emportant avec vous des souvenirs précieux du Japon.</li>
+                            
+                        </ul>
+                    </div>
+                    
+                    <div class="pl-14 md:w-[45%] mt-6 md:mt-0 md:pl-12">
+                        <div class="rounded-xl overflow-hidden shadow-lg mb-4">
+                            <img src="https://raw.githubusercontent.com/shepper1/Nikko-hakone--kyoto-osaka/main/jour20.jpg" class="w-full h-64 object-cover" alt="Jour 20">
+                        </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">⏰ Temps de Transfert</p>
+                                <p class="text-gray-700">Prévoyez suffisamment de temps pour le transfert vers l'aéroport, surtout si vous partez de Narita (NRT), qui est plus éloigné du centre de Tokyo que Haneda (HND). Comptez au moins 1h30 à 2h de trajet.</p>
+                            </div>
+                        
+                            <div class="tip-card p-4 rounded-r-lg text-sm mb-2">
+                                <p class="font-bold text-template-ocre mb-1">🛄 Bagages</p>
+                                <p class="text-gray-700">Vérifiez les restrictions de poids et de taille de vos bagages avant de partir pour l'aéroport afin d'éviter des frais supplémentaires. Pensez à garder un peu de place pour les souvenirs !</p>
+                            </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+    </section>
+
+    <footer id="pratique" class="bg-white border-t border-gray-200 pt-16 pb-10 scroll-mt-24">
+        <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-10 mb-12">
+            <div>
+                <h4 class="font-serif text-xl mb-4 text-template-roche flex items-center gap-2">
+                    <span>☀️</span> Périodes Idéales
+                </h4>
+                
+                    <p class="text-sm text-gray-600 leading-relaxed">Les périodes idéales pour ce séjour sont les mois de mars à mai (printemps) et d'octobre à novembre (automne).</p>
+                
+                    <p class="text-sm text-gray-600 leading-relaxed">Le printemps offre la floraison des cerisiers (sakura), tandis que l'automne est magnifique avec les couleurs des érables (momiji).</p>
+                
+            </div>
+            <div>
+                <h4 class="font-serif text-xl mb-4 text-template-roche flex items-center gap-2">
+                    <span>🧳</span> À savoir
+                </h4>
+                <ul class="text-sm text-gray-600 space-y-3">
+
+                        <li><strong>🌡️ :</strong> Au printemps (mars-mai), les températures varient de 10 à 25°C. Prévoir des couches de vêtements. En automne (oct-nov), de 10 à 20°C, prévoir des vêtements chauds.</li>
+                    
+                        <li><strong>💳 :</strong> La monnaie est le Yen (JPY). Les cartes de crédit sont largement acceptées dans les grandes villes, mais prévoyez du liquide pour les petits commerces, les temples ou les zones rurales.</li>
+                    
+                        <li><strong>🚆 :</strong> Le Japan Rail Pass est essentiel pour ce type de voyage. Activez-le dès votre arrivée. Les transports en commun sont très efficaces et ponctuels.</li>
+                    
+                        <li><strong>📶 :</strong> Une carte SIM locale ou un boîtier Wi-Fi portable est fortement recommandé pour rester connecté. Le Wi-Fi public est disponible mais pas toujours fiable.</li>
+                    
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-serif text-xl mb-4 text-template-roche flex items-center gap-2"><span>🔗</span> Liens Utiles</h4>
+                <ul class="text-sm space-y-3">
+                  <li><a href="https://shepper1.github.io/Nikko hakone  kyoto osaka/map.html" target="_blank" class="hover:underline flex items-center gap-2"><strong>🗺️ Carte</strong></a></li>
+                    
+                        <li><a href="https://www.japan.travel/fr/" target="_blank" class="hover:underline flex items-center gap-2"><strong>📘 Office National du Tourisme Japonais</strong></a></li>
+                    
+                        <li><a href="https://www.japanrailpass-france.fr/" target="_blank" class="hover:underline flex items-center gap-2"><strong>🚄 Japan Rail Pass Officiel</strong></a></li>
+                    
+                        <li><a href="https://www.jma.go.jp/jma/indexe.html" target="_blank" class="hover:underline flex items-center gap-2"><strong>🌤️ Japan Meteorological Agency</strong></a></li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="text-center border-t border-gray-100 pt-8">
+            <p class="font-serif text-2xl text-template-roche mb-2">Nikko hakone  kyoto osaka</p>
+            <p class="text-xs text-gray-400">© 2025 - Roadmap</p>
+        </div>
+    </footer>
+
+    <script>
+        // 1. Gestion de l'affichage du menu au scroll
+        const navDesktop = document.getElementById('nav-desktop');
+        const navMobile = document.getElementById('nav-mobile');
+        
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 300) {
+                navDesktop.classList.remove('-translate-y-full');
+                navMobile.classList.remove('-translate-y-full');
+            } else {
+                navDesktop.classList.add('-translate-y-full');
+                navMobile.classList.add('-translate-y-full');
+            }
+        });
+
+        // 2. Détection de l'étape active
+        const observerOptions = {
+            root: null,
+            rootMargin: '-40% 0px -60% 0px',
+            threshold: 0
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const activeId = entry.target.id;
+                    
+                    document.querySelectorAll('.mobile-link').forEach(link => {
+                        const linkHref = link.getAttribute('href').substring(1);
+                        if (linkHref === activeId) {
+                            link.classList.remove('bg-gray-100', 'text-gray-700');
+                            link.classList.add('bg-template-ocre', 'text-white', 'shadow-md');
+                            link.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+                        } else {
+                            link.classList.add('bg-gray-100', 'text-gray-700');
+                            link.classList.remove('bg-template-ocre', 'text-white', 'shadow-md');
+                        }
+                    });
+
+                    document.querySelectorAll('.nav-item-desktop').forEach(link => {
+                        const linkHref = link.getAttribute('href').substring(1);
+                        if (activeId.includes('jour') && linkHref === 'jour-1') {
+                            link.classList.add('text-template-ocre');
+                        } else if (activeId === 'pratique' && linkHref === 'pratique') {
+                            link.classList.add('text-template-ocre');
+                        } else {
+                            link.classList.remove('text-template-ocre');
+                        }
+                    });
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('div[id^="jour-"], footer#pratique').forEach(section => {
+            observer.observe(section);
+        });
+    </script>
+</body>
+</html>
