@@ -1,0 +1,411 @@
+{
+  "pays": "Japon",
+  "drapeau": "🇯🇵",
+  "symbole": "🌸",
+  "titre": "L'Épopée Japonaise : Entre Temples Anciens et Mégalopoles Futuristes",
+  "budget": "4500€ - 5000€",
+  "duree": "17 jours uniquement",
+  "temps_vol": "12h - 14h",
+  "jours": [
+    {
+      "jour": 1,
+      "symbole": "🛬",
+      "titre": "Arrivée à Tokyo : Premiers Pas en Terre Nippone",
+      "legende": "Après un long vol, l'arrivée à Tokyo est une immersion immédiate dans une culture fascinante. Prenez le temps de vous installer et de vous imprégner de l'ambiance unique de la capitale, en douceur, pour bien débuter votre aventure.",
+      "lieu": "Tokyo",
+      "activites": [
+        "🛬 <strong>Arrivée à l'aéroport de Narita (NRT) ou Haneda (HND)</strong>: Transfert vers votre hôtel au cœur de Tokyo. Profitez du trajet pour observer les premiers paysages japonais.",
+        "🛏️ <strong>Installation à l'hôtel et détente</strong>: Prenez possession de votre chambre et reposez-vous après le voyage. Une petite pause est essentielle pour récupérer du décalage horaire.",
+        "🚶‍♂️ <strong>Balade légère dans le quartier de Shinjuku</strong>: Découvrez les environs de votre hôtel, admirez les gratte-ciel illuminés et ressentez l'énergie vibrante de la ville sans vous presser."
+      ],
+      "illustration": "tokyo_jour1.jpg",
+      "encarts": [
+        {
+          "symbole": "ℹ️",
+          "titre": "Conseil Arrivée",
+          "texte": "Activez votre Japan Rail Pass dès l'arrivée si vous l'avez acheté, ou procurez-vous une carte Suica/Pasmo pour les transports locaux. Le Narita Express (N'EX) ou le Keisei Skyliner sont des options rapides pour rejoindre le centre de Tokyo."
+        }
+      ]
+    },
+    {
+      "jour": 2,
+      "symbole": "🏙️",
+      "titre": "Tokyo : Traditions et Modernité à Shinjuku et Shibuya",
+      "legende": "Plongez au cœur de Tokyo en explorant ses quartiers emblématiques. Entre les jardins paisibles de Shinjuku Gyoen et l'effervescence du carrefour de Shibuya, cette journée vous offre un aperçu contrasté de la capitale japonaise, mêlant sérénité et dynamisme urbain.",
+      "lieu": "Tokyo",
+      "activites": [
+        "🌳 <strong>Matinée au Jardin National de Shinjuku Gyoen</strong>: Évadez-vous dans ce havre de paix, un magnifique jardin qui combine styles français, anglais et japonais. C'est un contraste saisissant avec l'agitation de la ville.",
+        "🚶‍♀️ <strong>Exploration du quartier de Shibuya</strong>: Traversez le célèbre carrefour de Shibuya, le plus fréquenté du monde, et imprégnez-vous de l'ambiance jeune et branchée. Ne manquez pas la statue de Hachiko, le chien fidèle."
+      ],
+      "illustration": "tokyo_jour2.jpg",
+      "encarts": [
+        {
+          "symbole": "📸",
+          "titre": "Spot Photo",
+          "texte": "Pour une vue imprenable sur le carrefour de Shibuya, montez au Starbucks du Tsutaya Building ou au Shibuya Sky."
+        },
+        {
+          "symbole": "🚇",
+          "titre": "Transports",
+          "texte": "Le métro de Tokyo est très efficace. Utilisez Google Maps pour planifier vos trajets, il est très précis pour les horaires et les lignes."
+        }
+      ]
+    },
+    {
+      "jour": 3,
+      "symbole": "⛩️",
+      "titre": "Tokyo : Histoire et Culture à Asakusa et Ueno",
+      "legende": "Remontez le temps à Asakusa, le quartier le plus ancien de Tokyo, où l'esprit du Japon d'antan perdure. Puis, explorez Ueno, un quartier culturel riche en musées et en espaces verts, offrant une journée équilibrée entre spiritualité et découverte artistique.",
+      "lieu": "Tokyo",
+      "activites": [
+        "🙏 <strong>Visite du Temple Senso-ji à Asakusa</strong>: Traversez la porte Kaminarimon et la rue commerçante Nakamise-dori pour atteindre le plus ancien temple de Tokyo. L'atmosphère y est vibrante et chargée d'histoire.",
+        "🎨 <strong>Après-midi au Parc d'Ueno et ses musées</strong>: Détendez-vous dans ce grand parc qui abrite plusieurs musées de renommée mondiale, comme le Musée National de Tokyo. C'est un lieu idéal pour une immersion culturelle."
+      ],
+      "illustration": "tokyo_jour3.jpg",
+      "encarts": [
+        {
+          "symbole": "🛍️",
+          "titre": "Souvenirs",
+          "texte": "La rue Nakamise-dori à Asakusa est parfaite pour acheter des souvenirs traditionnels japonais."
+        },
+        {
+          "symbole": "🍜",
+          "titre": "Gastronomie",
+          "texte": "Goûtez aux spécialités locales dans les petites échoppes d'Asakusa, comme les 'melon pan' ou les 'agemanjū'."
+        }
+      ]
+    },
+    {
+      "jour": 4,
+      "symbole": "🏞️",
+      "titre": "Nikko : Trésors Sacrés au Cœur de la Nature",
+      "legende": "Échappez à l'agitation de Tokyo pour une journée à Nikko, un site classé au patrimoine mondial de l'UNESCO. Ses sanctuaires et temples magnifiques, nichés dans une nature luxuriante, offrent une expérience spirituelle et visuelle inoubliable. Préparez-vous à être émerveillé par l'artisanat et la sérénité des lieux.",
+      "lieu": "Nikko",
+      "activites": [
+        "🚆 <strong>Voyage en train vers Nikko</strong>: Prenez le train depuis Tokyo pour Nikko, un trajet pittoresque qui vous mènera vers les montagnes. Le Japan Rail Pass est valable sur certaines lignes.",
+        "⛩️ <strong>Exploration du Sanctuaire Toshogu et du Futarasan-jinja</strong>: Admirez l'architecture extravagante et les détails sculptés du sanctuaire Toshogu, puis visitez le plus ancien sanctuaire Futarasan-jinja. Ces sites sont des chefs-d'œuvre artistiques et spirituels."
+      ],
+      "illustration": "nikko_jour4.jpg",
+      "encarts": [
+        {
+          "symbole": "🚶‍♀️",
+          "titre": "À Pied",
+          "texte": "Les principaux sites de Nikko sont accessibles à pied depuis la gare, mais prévoyez de bonnes chaussures car il y a des montées."
+        },
+        {
+          "symbole": "🛌",
+          "titre": "Hébergement",
+          "texte": "Passer une nuit à Nikko permet de profiter pleinement des sites sans se presser et de découvrir l'ambiance locale en soirée."
+        }
+      ]
+    },
+    {
+      "jour": 5,
+      "symbole": "♨️",
+      "titre": "Nikko et Hakone : Entre Lacs et Sources Chaudes",
+      "legende": "Après une matinée paisible à Nikko, vous prendrez la direction de Hakone, une région volcanique réputée pour ses paysages magnifiques et ses onsens. Cette journée de transition vous mènera des splendeurs historiques aux merveilles naturelles, offrant un contraste rafraîchissant.",
+      "lieu": "Nikko / Hakone",
+      "activites": [
+        "🏞️ <strong>Matinée au Lac Chuzenji et Chutes de Kegon (Nikko)</strong>: Profitez de la beauté naturelle du lac Chuzenji et admirez les impressionnantes chutes de Kegon, l'une des trois plus belles du Japon. C'est un moment de pure contemplation.",
+        "🚆 <strong>Voyage en train vers Hakone</strong>: Prenez le train pour Hakone, une région montagneuse célèbre pour ses vues sur le Mont Fuji et ses sources thermales. Le trajet offre des paysages variés et apaisants."
+      ],
+      "illustration": "hakone_jour5.jpg",
+      "encarts": [
+        {
+          "symbole": "🚌",
+          "titre": "Transport Local",
+          "texte": "À Nikko, un bus local est pratique pour se rendre au Lac Chuzenji et aux Chutes de Kegon depuis la gare."
+        },
+        {
+          "symbole": "♨️",
+          "titre": "Expérience",
+          "texte": "À Hakone, réservez un ryokan avec onsen (bain thermal) pour une expérience japonaise authentique et relaxante."
+        }
+      ]
+    },
+    {
+      "jour": 6,
+      "symbole": "🗻",
+      "titre": "Hakone : Croisière, Téléphérique et Vues sur le Fuji",
+      "legende": "Découvrez les paysages emblématiques de Hakone à travers son circuit touristique unique. Entre croisière sur le lac Ashi, ascension en téléphérique et dégustation d'œufs noirs, cette journée est une immersion totale dans la beauté naturelle et les curiosités géothermiques de la région, avec le Mont Fuji en toile de fond.",
+      "lieu": "Hakone",
+      "activites": [
+        "🚢 <strong>Croisière sur le Lac Ashi et vue sur le Mont Fuji</strong>: Embarquez sur un bateau pirate pour une croisière relaxante sur le lac Ashi. Par temps clair, vous aurez une vue spectaculaire sur le Mont Fuji se reflétant dans l'eau.",
+        "🚠 <strong>Téléphérique de Hakone et Vallée d'Owakudani</strong>: Montez à bord du téléphérique pour survoler la vallée volcanique d'Owakudani, où vous pourrez observer les fumerolles de soufre et goûter aux célèbres œufs noirs, censés prolonger la vie."
+      ],
+      "illustration": "hakone_jour6.jpg",
+      "encarts": [
+        {
+          "symbole": "🎫",
+          "titre": "Hakone Free Pass",
+          "texte": "Le Hakone Free Pass est très avantageux pour utiliser tous les transports du circuit touristique (train, bus, bateau, téléphérique)."
+        },
+        {
+          "symbole": "☁️",
+          "titre": "Météo",
+          "texte": "Le Mont Fuji est souvent caché par les nuages. Pour maximiser vos chances de le voir, privilégiez le matin tôt et les saisons plus sèches (automne/hiver)."
+        }
+      ]
+    },
+    {
+      "jour": 7,
+      "symbole": "🎋",
+      "titre": "Kyoto : L'Ancienne Capitale Impériale",
+      "legende": "Quittez les montagnes de Hakone pour rejoindre Kyoto, le cœur culturel et historique du Japon. Cette journée de transition vous permettra de vous imprégner de l'atmosphère unique de l'ancienne capitale impériale, avec une première découverte de ses quartiers traditionnels et de ses temples emblématiques.",
+      "lieu": "Kyoto",
+      "activites": [
+        "🚄 <strong>Voyage en Shinkansen vers Kyoto</strong>: Prenez le train à grande vitesse (Shinkansen) pour Kyoto. Le trajet est rapide et confortable, offrant un aperçu des paysages ruraux japonais.",
+        "⛩️ <strong>Visite du Fushimi Inari-taisha</strong>: Explorez le sanctuaire Fushimi Inari-taisha, célèbre pour ses milliers de torii vermillons formant des tunnels sur la montagne. C'est une expérience visuelle et spirituelle unique."
+      ],
+      "illustration": "kyoto_jour7.jpg",
+      "encarts": [
+        {
+          "symbole": "🧳",
+          "titre": "Bagages",
+          "texte": "Pour les longs trajets en Shinkansen, pensez au service de livraison de bagages 'Takkyubin' pour envoyer vos valises directement à votre prochain hôtel."
+        },
+        {
+          "symbole": "🚶‍♀️",
+          "titre": "Affluence",
+          "texte": "Fushimi Inari est très populaire. Pour éviter la foule, visitez tôt le matin ou en fin d'après-midi."
+        }
+      ]
+    },
+    {
+      "jour": 8,
+      "symbole": "🌸",
+      "titre": "Kyoto : Jardins Zen et Quartier des Geishas",
+      "legende": "Plongez plus profondément dans l'âme de Kyoto avec une journée dédiée à ses jardins zen et à son quartier historique. Du pavillon d'or scintillant aux ruelles mystérieuses de Gion, cette journée est une invitation à la contemplation et à la découverte des traditions japonaises les plus raffinées.",
+      "lieu": "Kyoto",
+      "activites": [
+        "✨ <strong>Matinée au Kinkaku-ji (Pavillon d'Or)</strong>: Admirez le Kinkaku-ji, un temple zen recouvert d'or pur, se reflétant magnifiquement dans l'étang. C'est un spectacle à couper le souffle, surtout par beau temps.",
+        "🚶‍♀️ <strong>Balade dans le quartier de Gion</strong>: Flânez dans les rues pavées de Gion, le quartier historique des geishas. Avec un peu de chance, vous pourrez apercevoir une geiko ou maiko se rendant à son rendez-vous."
+      ],
+      "illustration": "kyoto_jour8.jpg",
+      "encarts": [
+        {
+          "symbole": "🚌",
+          "titre": "Transports",
+          "texte": "Le bus est le moyen de transport le plus pratique pour se déplacer à Kyoto. Achetez un pass journalier pour plus de facilité."
+        },
+        {
+          "symbole": "📸",
+          "titre": "Respect",
+          "texte": "À Gion, il est interdit de photographier les geishas sans leur consentement. Respectez leur intimité et les panneaux d'interdiction."
+        }
+      ]
+    },
+    {
+      "jour": 9,
+      "symbole": "🎍",
+      "titre": "Kyoto : Forêt de Bambous et Temples Zen",
+      "legende": "Explorez les merveilles naturelles et spirituelles de l'ouest de Kyoto. La majestueuse forêt de bambous d'Arashiyama offre une expérience sensorielle unique, tandis que les temples zen environnants invitent à la sérénité. Une journée pour se ressourcer au cœur de la nature et de la spiritualité japonaise.",
+      "lieu": "Kyoto",
+      "activites": [
+        "🎋 <strong>Matinée à la Forêt de Bambous d'Arashiyama</strong>: Promenez-vous dans l'impressionnante forêt de bambous, où les tiges géantes créent une atmosphère magique et apaisante. Le son du vent dans les bambous est une expérience mémorable.",
+        "🧘‍♀️ <strong>Visite du Tenryu-ji et du Jardin Okochi Sanso</strong>: Découvrez le magnifique temple zen Tenryu-ji, classé à l'UNESCO, et son jardin paysager. Ensuite, explorez la villa et les jardins d'Okochi Sanso, offrant des vues superbes sur Kyoto."
+      ],
+      "illustration": "kyoto_jour9.jpg",
+      "encarts": [
+        {
+          "symbole": "🚶‍♀️",
+          "titre": "Conseil",
+          "texte": "Arrivez tôt à Arashiyama pour profiter de la forêt de bambous avec moins de monde et une lumière plus douce."
+        },
+        {
+          "symbole": "🛶",
+          "titre": "Activité Optionnelle",
+          "texte": "Envisagez une balade en barque sur la rivière Hozugawa pour une perspective différente sur les paysages d'Arashiyama."
+        }
+      ]
+    },
+    {
+      "jour": 10,
+      "symbole": "🏯",
+      "titre": "Kyoto : Château de Nijo et Détente",
+      "legende": "Cette journée à Kyoto est dédiée à l'exploration du magnifique Château de Nijo, témoin de l'histoire des shoguns. L'après-midi est libre, vous permettant de flâner, de faire du shopping ou de revisiter un lieu coup de cœur, pour une immersion plus personnelle dans la ville.",
+      "lieu": "Kyoto",
+      "activites": [
+        "🏯 <strong>Matinée au Château de Nijo</strong>: Visitez le Château de Nijo, ancienne résidence des shoguns Tokugawa, célèbre pour ses 'planchers rossignols' qui chantent sous les pas. Ses jardins sont également magnifiques et invitent à la promenade.",
+        "🛍️ <strong>Après-midi libre à Kyoto</strong>: Profitez de cet après-midi pour explorer à votre rythme. Vous pouvez faire du shopping dans les galeries marchandes, visiter un petit temple moins connu, ou simplement vous détendre dans un café traditionnel."
+      ],
+      "illustration": "kyoto_jour10.jpg",
+      "encarts": [
+        {
+          "symbole": "🎁",
+          "titre": "Shopping",
+          "texte": "Le quartier de Shijo-Kawaramachi est idéal pour le shopping, avec de grands magasins et des boutiques de souvenirs."
+        },
+        {
+          "symbole": "🍵",
+          "titre": "Expérience",
+          "texte": "Participez à une cérémonie du thé traditionnelle pour une immersion culturelle authentique et apaisante."
+        }
+      ]
+    },
+    {
+      "jour": 11,
+      "symbole": "🐙",
+      "titre": "Osaka : La Ville Gourmande et Animée",
+      "legende": "Quittez la sérénité de Kyoto pour l'énergie trépidante d'Osaka, la capitale gastronomique du Japon. Après votre installation, plongez directement dans l'ambiance électrique de Dotonbori, un quartier où les néons et les saveurs éveillent tous les sens, pour une soirée mémorable.",
+      "lieu": "Osaka",
+      "activites": [
+        "🚄 <strong>Voyage en train vers Osaka</strong>: Prenez un court trajet en train de Kyoto à Osaka. Le Shinkansen n'est pas nécessaire pour cette liaison, les trains locaux sont rapides et fréquents.",
+        "🍜 <strong>Soirée à Dotonbori</strong>: Immergez-vous dans l'ambiance électrique de Dotonbori, célèbre pour ses enseignes lumineuses géantes et ses innombrables restaurants. C'est l'endroit parfait pour goûter aux spécialités locales."
+      ],
+      "illustration": "osaka_jour11.jpg",
+      "encarts": [
+        {
+          "symbole": "🍽️",
+          "titre": "Spécialités",
+          "texte": "À Dotonbori, ne manquez pas de goûter les takoyaki (boulettes de poulpe) et les okonomiyaki (crêpes salées). C'est un régal pour les papilles !"
+        },
+        {
+          "symbole": "🚶‍♀️",
+          "titre": "Ambiance",
+          "texte": "Laissez-vous porter par la foule et l'énergie du quartier. C'est une expérience sensorielle unique, surtout le soir."
+        }
+      ]
+    },
+    {
+      "jour": 12,
+      "symbole": "🎢",
+      "titre": "Osaka : Château Historique et Quartiers Modernes",
+      "legende": "Découvrez les contrastes d'Osaka, entre son imposant château, symbole de son riche passé, et ses quartiers modernes et animés. Cette journée vous offre un mélange d'histoire, de culture et de divertissement, reflétant la diversité de cette métropole dynamique.",
+      "lieu": "Osaka",
+      "activites": [
+        "🏯 <strong>Visite du Château d'Osaka</strong>: Explorez le majestueux Château d'Osaka, un des symboles de la ville, et son parc environnant. Le château offre une vue panoramique sur la ville depuis son sommet.",
+        "🛍️ <strong>Exploration du quartier d'Umeda</strong>: Découvrez le quartier moderne d'Umeda, avec ses gratte-ciel, ses centres commerciaux souterrains et l'Umeda Sky Building. C'est un centre névralgique pour le shopping et l'architecture contemporaine."
+      ],
+      "illustration": "osaka_jour12.jpg",
+      "encarts": [
+        {
+          "symbole": "📸",
+          "titre": "Vue Panoramique",
+          "texte": "Montez à l'Observatoire du Jardin Flottant de l'Umeda Sky Building pour une vue imprenable sur Osaka, surtout au coucher du soleil."
+        },
+        {
+          "symbole": "🚇",
+          "titre": "Transports",
+          "texte": "Le métro d'Osaka est très efficace pour se déplacer entre les différents quartiers. Une carte IC (Suica/Pasmo) est très pratique."
+        }
+      ]
+    },
+    {
+      "jour": 13,
+      "symbole": "🎡",
+      "titre": "Osaka : Détente et Divertissement à Universal Studios Japan",
+      "legende": "Cette journée est dédiée au divertissement et à l'évasion. Universal Studios Japan offre une multitude d'attractions pour tous les âges, des mondes thématiques immersifs aux montagnes russes à sensations fortes. C'est une pause ludique et excitante dans votre exploration du Japon.",
+      "lieu": "Osaka",
+      "activites": [
+        "🎢 <strong>Journée complète à Universal Studios Japan (USJ)</strong>: Plongez dans l'univers de vos films préférés, des aventures d'Harry Potter aux attractions de Super Nintendo World. Prévoyez d'arriver tôt pour profiter au maximum des attractions."
+      ],
+      "illustration": "osaka_jour13.jpg",
+      "encarts": [
+        {
+          "symbole": "🎟️",
+          "titre": "Billets",
+          "texte": "Achetez vos billets pour USJ en ligne à l'avance pour éviter les longues files d'attente à l'entrée. Un Express Pass peut être utile pour les jours de forte affluence."
+        },
+        {
+          "symbole": "💡",
+          "titre": "Conseil",
+          "texte": "Téléchargez l'application officielle d'USJ pour consulter les temps d'attente des attractions et les horaires des spectacles."
+        }
+      ]
+    },
+    {
+      "jour": 14,
+      "symbole": "🏮",
+      "titre": "Osaka : Quartiers Rétro et Ambiance Locale",
+      "legende": "Explorez les facettes plus authentiques et rétro d'Osaka. Du quartier populaire de Shinsekai avec sa tour Tsutenkaku, aux galeries commerçantes couvertes, cette journée vous plonge dans l'ambiance locale et vous offre l'occasion de faire vos dernières emplettes et de savourer une dernière fois la cuisine osakaïte.",
+      "lieu": "Osaka",
+      "activites": [
+        "🗼 <strong>Matinée à Shinsekai et la Tour Tsutenkaku</strong>: Visitez le quartier rétro de Shinsekai, avec son ambiance unique et sa tour Tsutenkaku. C'est un voyage dans le temps, avec de nombreux restaurants de kushikatsu (brochettes frites).",
+        "🛍️ <strong>Shopping et dernières découvertes</strong>: Profitez de l'après-midi pour faire vos derniers achats de souvenirs dans les galeries marchandes comme Shinsaibashi-suji ou pour revisiter un quartier coup de cœur. Dégustez un dernier repas typique d'Osaka."
+      ],
+      "illustration": "osaka_jour14.jpg",
+      "encarts": [
+        {
+          "symbole": "🎁",
+          "titre": "Souvenirs",
+          "texte": "Les galeries commerçantes d'Osaka offrent un large choix de souvenirs, des produits électroniques aux articles de mode et aux spécialités culinaires."
+        },
+        {
+          "symbole": "🚶‍♀️",
+          "titre": "Exploration",
+          "texte": "N'hésitez pas à vous perdre dans les petites rues adjacentes pour découvrir des boutiques et des restaurants locaux authentiques."
+        }
+      ]
+    },
+    {
+      "jour": 15,
+      "symbole": "🛫",
+      "titre": "Départ d'Osaka : Sayonara Japon !",
+      "legende": "Après un voyage riche en découvertes et en émotions, il est temps de quitter le Japon. Profitez de cette dernière matinée pour un dernier petit-déjeuner japonais ou une ultime balade avant de vous rendre à l'aéroport. Emportez avec vous des souvenirs inoubliables de cette épopée japonaise.",
+      "lieu": "Osaka",
+      "activites": [
+        "🍳 <strong>Dernier petit-déjeuner japonais</strong>: Savourez un dernier repas typique avant de commencer votre journée de départ. C'est l'occasion de se remémorer les saveurs du voyage.",
+        "✈️ <strong>Transfert vers l'aéroport international du Kansai (KIX)</strong>: Prenez le train ou le bus pour l'aéroport KIX. Prévoyez suffisamment de temps pour le trajet et les formalités d'enregistrement.",
+        "🛫 <strong>Vol retour vers Roissy (Paris)</strong>: Embarquement pour votre vol retour, la tête pleine de souvenirs et d'expériences japonaises."
+      ],
+      "illustration": "osaka_jour15.jpg",
+      "encarts": [
+        {
+          "symbole": "ℹ️",
+          "titre": "Formalités",
+          "texte": "Vérifiez les exigences de votre compagnie aérienne pour les bagages et les formalités d'enregistrement. Arrivez à l'aéroport au moins 3 heures avant votre vol international."
+        },
+        {
+          "symbole": "💱",
+          "titre": "Devises",
+          "texte": "Pensez à échanger vos derniers yens ou à les dépenser avant de quitter le pays."
+        }
+      ]
+    }
+  ],
+  "periodes_ideales": [
+    {
+      "titre": "Les périodes idéales pour ce séjour sont les mois de mars-avril (floraison des cerisiers) et octobre-novembre (feuilles d'automne).",
+      "symbole": "🌸"
+    }
+  ],
+  "infos_pratiques": [
+    {
+      "titre": "Le Japan Rail Pass est fortement recommandé pour ce type d'itinéraire, couvrant la plupart des trajets en Shinkansen et JR.",
+      "symbole": "🚄"
+    },
+    {
+      "titre": "Les cartes Suica ou Pasmo sont indispensables pour les transports locaux (métro, bus) et peuvent être utilisées dans de nombreux commerces.",
+      "symbole": "💳"
+    },
+    {
+      "titre": "La connexion Wi-Fi est largement disponible, mais un pocket Wi-Fi ou une carte SIM locale/eSIM est conseillée pour une connectivité constante.",
+      "symbole": "📶"
+    },
+    {
+      "titre": "Prévoyez des chaussures confortables, car vous marcherez beaucoup. Les temples et sanctuaires nécessitent souvent de se déchausser.",
+      "symbole": "👟"
+    }
+  ],
+  "liens_utiles": [
+    {
+      "legende": "Informations officielles sur le tourisme au Japon",
+      "titre": "Japan National Tourism Organization (JNTO)",
+      "url": "https://www.japan.travel/fr/",
+      "symbole": "📘"
+    },
+    {
+      "legende": "Planification et achat du Japan Rail Pass",
+      "titre": "Japan Rail Pass Officiel",
+      "url": "https://www.japanrailpass-france.fr/",
+      "symbole": "🚆"
+    },
+    {
+      "legende": "Prévisions météo détaillées pour le Japon",
+      "titre": "Japan Meteorological Agency",
+      "url": "https://www.jma.go.jp/jma/indexe.html",
+      "symbole": "🌤️"
+    }
+  ]
+}
